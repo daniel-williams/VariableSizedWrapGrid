@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <VariableSizedWrapGrid x:Name="myGrid" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Orientation="Horizontal">
 
-    </Grid>
+    </VariableSizedWrapGrid>
 </Page>
